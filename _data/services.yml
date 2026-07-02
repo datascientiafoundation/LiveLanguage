@@ -14,3 +14,7 @@
   logo: /img/indonesia.png
   featured: true
   url: http://indonesia.ukc.datascientia.eu
+- name: Bengali Languages
+  logo: /img/bengali.png
+  featured: true
+  url: http://bengali.ukc.datascientia.eu
