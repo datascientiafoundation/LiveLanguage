@@ -464,3 +464,35 @@ img.serviceicon {
     border-radius: 5px;
     margin: 10px;
 }
+
+
+
+
+/* Browse Lexicons - 3 columns */
+.homepage-categories.languages-grid {
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr) !important;
+    gap: 20px !important;
+    text-align: center !important;
+}
+
+.homepage-categories.languages-grid .thumbnail {
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.homepage-categories.languages-grid .thumbnail img {
+    height: 80px;
+    object-fit: contain;
+}
+
+@media (max-width: 600px) {
+    .homepage-categories.languages-grid {
+        grid-template-columns: repeat(2, 1fr) !important;
+    }
+}

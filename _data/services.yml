@@ -18,3 +18,7 @@
   logo: /img/bengali.png
   featured: true
   url: http://bengali.ukc.datascientia.eu
+- name: South African Languages
+  logo: /img/southafrica.png
+  featured: true
+  url: http://southafrica.ukc.datascientia.eu
